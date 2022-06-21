@@ -1,0 +1,75 @@
+body {
+  margin: 0px;
+  display: grid;
+  justify-content: center;
+  flex-direction: column;
+  //gap: 10px;
+
+  header.cabecera {
+    background-color: aqua;
+    .postal-cabecera {
+      img {
+        width: 1920px;
+        height: 600px;
+        object-fit: cover;
+        //opacity: 0.8;
+      }
+    }
+    .buscador {
+      display: flex;
+      justify-content: center;
+      div {
+        input {
+          width: 500px;
+          height: 50px;
+          border: transparent;
+          border-bottom: solid 1px #ccc;
+          padding: 10px 10px 10px 30px;
+          outline: none;
+        }
+      }
+    }
+  }
+  .menu-inicial {
+    background-color: rgb(208, 175, 239);
+    ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      li {
+        margin-left: 25px;
+        text-decoration: none;
+        font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+          "Helvetica Neue", sans-serif;
+        cursor: pointer;
+      }
+    }
+  }
+  .informacion {
+    background-color: bisque;
+    h2 {
+      display: flex;
+      justify-content: center;
+      font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+        "Helvetica Neue", sans-serif;
+    }
+    .card-informacion {
+      display: flex;
+      justify-content: space-around;
+      margin-left: 50px;
+      margin-right: 50px;
+      cursor: pointer;
+      div {
+        font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+          "Helvetica Neue", sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 200px;
+        color: black;
+        background-color: coral;
+      }
+    }
+  }
+}
