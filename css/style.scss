@@ -7,6 +7,13 @@ body {
 
   header.cabecera {
     background-color: aqua;
+    @media (min-width: 350px) {
+      background-color: chartreuse;
+    }
+    @media (max-width: 750px) {
+      background-color: red;
+    }
+
     .postal-cabecera {
       img {
         width: 1920px;

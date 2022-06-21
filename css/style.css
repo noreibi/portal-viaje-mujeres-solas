@@ -15,6 +15,18 @@ body header.cabecera {
   background-color: aqua;
 }
 
+@media (min-width: 350px) {
+  body header.cabecera {
+    background-color: chartreuse;
+  }
+}
+
+@media (max-width: 750px) {
+  body header.cabecera {
+    background-color: red;
+  }
+}
+
 body header.cabecera .postal-cabecera img {
   width: 1920px;
   height: 600px;
