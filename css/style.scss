@@ -15,6 +15,7 @@ body {
     }
 
     .postal-cabecera {
+      position: relative;
       img {
         width: 1920px;
         height: 600px;
@@ -25,7 +26,10 @@ body {
     .buscador {
       display: flex;
       justify-content: center;
+
       div {
+        position: absolute;
+        z-index: 2;
         input {
           width: 500px;
           height: 50px;

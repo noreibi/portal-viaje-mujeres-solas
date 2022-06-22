@@ -27,6 +27,10 @@ body header.cabecera {
   }
 }
 
+body header.cabecera .postal-cabecera {
+  position: relative;
+}
+
 body header.cabecera .postal-cabecera img {
   width: 1920px;
   height: 600px;
@@ -41,6 +45,11 @@ body header.cabecera .buscador {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+body header.cabecera .buscador div {
+  position: absolute;
+  z-index: 2;
 }
 
 body header.cabecera .buscador div input {
